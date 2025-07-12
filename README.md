@@ -54,12 +54,3 @@ npx react-native start --reset-cache
 npx kill-port 8081
 ```
 
-📁 Project Structure
-
-your-repo-name/
-├── App.tsx
-├── android/
-├── ios/
-├── node_modules/
-├── index.js
-└── package.json
