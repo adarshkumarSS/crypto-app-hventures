@@ -1,0 +1,95 @@
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+ios/Pods/
+ios/DerivedData/
+ios/build/
+
+# Android / IntelliJ
+build/
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Bundler / Ruby
+.bundle/
+Gemfile.lock
+/vendor/bundle/
+
+# Metro
+.metro-health-check*
+.expo/
+.expo-shared/
+*.jsbundle
+
+# Babel
+babel.config.js
+
+# Jest / Testing
+coverage/
+jest/
+jest.config.js
+__tests__/
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Watchman
+.watchmanconfig
+
+# Yarn Plug’n’Play
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
